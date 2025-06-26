@@ -1,0 +1,51 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/mike/Documents/AndroidProjects/LSPosedSpoofPlayStore/app/src/main/AndroidManifest.xml:1:1-11:12
+INJECTED from /home/mike/Documents/AndroidProjects/LSPosedSpoofPlayStore/app/src/main/AndroidManifest.xml:1:1-11:12
+INJECTED from /home/mike/Documents/AndroidProjects/LSPosedSpoofPlayStore/app/src/main/AndroidManifest.xml:1:1-11:12
+INJECTED from /home/mike/Documents/AndroidProjects/LSPosedSpoofPlayStore/app/src/main/AndroidManifest.xml:1:1-11:12
+	package
+		INJECTED from /home/mike/Documents/AndroidProjects/LSPosedSpoofPlayStore/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /home/mike/Documents/AndroidProjects/LSPosedSpoofPlayStore/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /home/mike/Documents/AndroidProjects/LSPosedSpoofPlayStore/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/mike/Documents/AndroidProjects/LSPosedSpoofPlayStore/app/src/main/AndroidManifest.xml:1:11-69
+application
+ADDED from /home/mike/Documents/AndroidProjects/LSPosedSpoofPlayStore/app/src/main/AndroidManifest.xml:3:5-10:19
+INJECTED from /home/mike/Documents/AndroidProjects/LSPosedSpoofPlayStore/app/src/main/AndroidManifest.xml:3:5-10:19
+	android:extractNativeLibs
+		INJECTED from /home/mike/Documents/AndroidProjects/LSPosedSpoofPlayStore/app/src/main/AndroidManifest.xml
+	android:label
+		ADDED from /home/mike/Documents/AndroidProjects/LSPosedSpoofPlayStore/app/src/main/AndroidManifest.xml:4:9-43
+	android:hasCode
+		ADDED from /home/mike/Documents/AndroidProjects/LSPosedSpoofPlayStore/app/src/main/AndroidManifest.xml:5:9-31
+	android:icon
+		ADDED from /home/mike/Documents/AndroidProjects/LSPosedSpoofPlayStore/app/src/main/AndroidManifest.xml:6:9-56
+meta-data#xposedmodule
+ADDED from /home/mike/Documents/AndroidProjects/LSPosedSpoofPlayStore/app/src/main/AndroidManifest.xml:7:9-71
+	android:value
+		ADDED from /home/mike/Documents/AndroidProjects/LSPosedSpoofPlayStore/app/src/main/AndroidManifest.xml:7:48-68
+	android:name
+		ADDED from /home/mike/Documents/AndroidProjects/LSPosedSpoofPlayStore/app/src/main/AndroidManifest.xml:7:20-47
+meta-data#xposeddescription
+ADDED from /home/mike/Documents/AndroidProjects/LSPosedSpoofPlayStore/app/src/main/AndroidManifest.xml:8:9-98
+	android:value
+		ADDED from /home/mike/Documents/AndroidProjects/LSPosedSpoofPlayStore/app/src/main/AndroidManifest.xml:8:53-95
+	android:name
+		ADDED from /home/mike/Documents/AndroidProjects/LSPosedSpoofPlayStore/app/src/main/AndroidManifest.xml:8:20-52
+meta-data#xposedminversion
+ADDED from /home/mike/Documents/AndroidProjects/LSPosedSpoofPlayStore/app/src/main/AndroidManifest.xml:9:9-73
+	android:value
+		ADDED from /home/mike/Documents/AndroidProjects/LSPosedSpoofPlayStore/app/src/main/AndroidManifest.xml:9:52-70
+	android:name
+		ADDED from /home/mike/Documents/AndroidProjects/LSPosedSpoofPlayStore/app/src/main/AndroidManifest.xml:9:20-51
+uses-sdk
+INJECTED from /home/mike/Documents/AndroidProjects/LSPosedSpoofPlayStore/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/mike/Documents/AndroidProjects/LSPosedSpoofPlayStore/app/src/main/AndroidManifest.xml
+INJECTED from /home/mike/Documents/AndroidProjects/LSPosedSpoofPlayStore/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /home/mike/Documents/AndroidProjects/LSPosedSpoofPlayStore/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/mike/Documents/AndroidProjects/LSPosedSpoofPlayStore/app/src/main/AndroidManifest.xml

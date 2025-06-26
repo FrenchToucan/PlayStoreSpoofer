@@ -1,0 +1,41 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.mike.playstorespoofer"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+9        android:targetSdkVersion="34" />
+10
+11    <application
+11-->/home/mike/Documents/AndroidProjects/LSPosedSpoofPlayStore/app/src/main/AndroidManifest.xml:3:5-10:19
+12        android:debuggable="true"
+13        android:extractNativeLibs="false"
+14        android:hasCode="true"
+14-->/home/mike/Documents/AndroidProjects/LSPosedSpoofPlayStore/app/src/main/AndroidManifest.xml:5:9-31
+15        android:icon="@drawable/ic_launcher_background"
+15-->/home/mike/Documents/AndroidProjects/LSPosedSpoofPlayStore/app/src/main/AndroidManifest.xml:6:9-56
+16        android:label="Play Store Spoofer" >
+16-->/home/mike/Documents/AndroidProjects/LSPosedSpoofPlayStore/app/src/main/AndroidManifest.xml:4:9-43
+17        <meta-data
+17-->/home/mike/Documents/AndroidProjects/LSPosedSpoofPlayStore/app/src/main/AndroidManifest.xml:7:9-71
+18            android:name="xposedmodule"
+18-->/home/mike/Documents/AndroidProjects/LSPosedSpoofPlayStore/app/src/main/AndroidManifest.xml:7:20-47
+19            android:value="true" />
+19-->/home/mike/Documents/AndroidProjects/LSPosedSpoofPlayStore/app/src/main/AndroidManifest.xml:7:48-68
+20        <meta-data
+20-->/home/mike/Documents/AndroidProjects/LSPosedSpoofPlayStore/app/src/main/AndroidManifest.xml:8:9-98
+21            android:name="xposeddescription"
+21-->/home/mike/Documents/AndroidProjects/LSPosedSpoofPlayStore/app/src/main/AndroidManifest.xml:8:20-52
+22            android:value="Spoofs Play Store presence" />
+22-->/home/mike/Documents/AndroidProjects/LSPosedSpoofPlayStore/app/src/main/AndroidManifest.xml:8:53-95
+23        <meta-data
+23-->/home/mike/Documents/AndroidProjects/LSPosedSpoofPlayStore/app/src/main/AndroidManifest.xml:9:9-73
+24            android:name="xposedminversion"
+24-->/home/mike/Documents/AndroidProjects/LSPosedSpoofPlayStore/app/src/main/AndroidManifest.xml:9:20-51
+25            android:value="93" />
+25-->/home/mike/Documents/AndroidProjects/LSPosedSpoofPlayStore/app/src/main/AndroidManifest.xml:9:52-70
+26    </application>
+27
+28</manifest>
