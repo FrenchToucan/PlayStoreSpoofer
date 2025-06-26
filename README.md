@@ -1,7 +1,4 @@
 # PlayStoreSpoofer
-LSPosed module for tricking apps that check for the presence of the Play Store like Pokemon Go or the eBay app.
-
-# PlayStoreSpoofer
 
 **PlayStoreSpoofer** is an [LSPosed](https://github.com/LSPosed/LSPosed) module that spoofs the presence of the Google Play Store to other apps. It tricks checks like `getInstallerPackageName()` and `getPackageInfo()` into believing the Play Store is installed and was used to install the current app.
 
@@ -40,7 +37,8 @@ Hooks into the Android `PackageManager` system APIs using LSPosed/Xposed and ret
 2. Build the APK in Android Studio (`Build > Build APK(s)`)
 3. Install the APK on your device
 4. Enable the module in the LSPosed app
-5. Reboot your device
+5. **Select the apps you want to spoof in LSPosed's per-app module settings**
+6. Reboot your device
 
 ---
 
