@@ -1,6 +1,6 @@
 # PlayStoreSpoofer
 
-**PlayStoreSpoofer** is an [LSPosed](https://github.com/xteamlyer/LSPosed-JingMatrix) module that spoofs the presence of the Google Play Store to other apps. It tricks checks like `getInstallerPackageName()` and `getPackageInfo()` into believing the Play Store is installed and was used to install the current app.
+**PlayStoreSpoofer** is an [LSPosed](https://github.com/JingMatrix/LSPosed) module that spoofs the presence of the Google Play Store to other apps. It tricks checks like `getInstallerPackageName()` and `getPackageInfo()` into believing the Play Store is installed and was used to install the current app.
 
 This is useful for bypassing installation-source checks or enabling features gated behind Play Store validation.
 
@@ -28,7 +28,7 @@ Hooks into the Android `PackageManager` system APIs using LSPosed/Xposed and ret
 ## 📦 Installation
 
 ### Requirements:
-- [LSPosed](https://github.com/xteamlyer/LSPosed-JingMatrix) or another Xposed-compatible framework
+- [LSPosed](https://github.com/JingMatrix/LSPosed) or another Xposed-compatible framework
 - Rooted Android device
 - Android 7.0+ recommended
 
