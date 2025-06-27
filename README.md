@@ -1,8 +1,6 @@
 # PlayStoreSpoofer
 
-**PlayStoreSpoofer** is an [LSPosed](https://github.com/JingMatrix/LSPosed) module that spoofs the presence of the Google Play Store to other apps. It tricks checks like `getInstallerPackageName()` and `getPackageInfo()` into believing the Play Store is installed and was used to install the current app.
-
-This is useful for bypassing installation-source checks or enabling features gated behind Play Store validation.
+**PlayStoreSpoofer** is an [LSPosed](https://github.com/LSPosed/LSPosed) module that spoofs the presence of the Google Play Store to other apps. It tricks checks like `getInstallerPackageName()` and `getPackageInfo()` into believing the Play Store is installed and was used to install the current app. This module does not impact Play Integrity at all, and is more like a companion to satisfy certain apps, like Pokemon Go, that require the Play Store presence on top of Play Integrity.
 
 ---
 
@@ -51,12 +49,4 @@ Hooks into the Android `PackageManager` system APIs using LSPosed/Xposed and ret
 - `AndroidManifest.xml` — includes required metadata
 
 ### Building:
-Open in Android Studio and run a build. Make sure your `xposed_init` file and manifest are correctly set (see below).
-
----
-
-## 🔍 Example Output (via Logcat)
-
-```plaintext
-Spoofing installer package name for: com.example.targetapp
-Spoofing presence of Play Store for getPackageInfo
+Open in Android Studio and run a build. Make sure your `xposed_init` file and manifest are correctly set.
