@@ -1,6 +1,6 @@
 # PlayStoreSpoofer
 
-**PlayStoreSpoofer** is an [LSPosed](https://github.com/LSPosed/LSPosed) module that spoofs the presence of the Google Play Store to other apps. It tricks checks like `getInstallerPackageName()` and `getPackageInfo()` into believing the Play Store is installed and was used to install the current app. This module does not impact Play Integrity at all, and is more like a companion to satisfy certain apps, like Pokemon Go, that require the Play Store presence on top of Play Integrity.
+**PlayStoreSpoofer** is an [LSPosed](https://github.com/LSPosed/LSPosed) module that spoofs the presence of the Google Play Store to other apps and specfically satisfies Pokemon Go's Play Store requirement. It tricks checks like `getInstallerPackageName()` and `getPackageInfo()` into believing the Play Store is installed and was used to install the current app. This module does not impact Play Integrity at all, and is more like a companion where Play Store presence is required on top of Play Integrity.
 
 ---
 
